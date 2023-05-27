@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: "GreekFont", sans-serif; /* Replace "GreekFont" with the actual Greek-looking font you want to use */
+  background-image: url(images/scrolls-texture.jpg); /* Replace "images/scrolls-texture.jpg" with the path to your textured background image */
+  background-repeat: repeat;
+}
+
+/* Banner section styles */
+#banner-section {
+  background: linear-gradient(to right, skyblue 50%, white 50%);
+  /* Adjust the height as needed, or use media queries for responsive height */
+  height: 200px;
+}
+
+/* Navigation menu styles */
+nav {
+  /* Add your cool animation styles here */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* Add styles for the bubble-like appearance */
+}
+
+/* Personal section styles */
+section#personal-section {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Avatar styles */
+#avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#avatar img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ...continue with the remaining CSS styles... */
+
